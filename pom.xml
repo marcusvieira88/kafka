@@ -25,6 +25,7 @@
         <module>kafka-twitter</module>
         <module>kafka-elasticsearch</module>
         <module>kafka-connectors</module>
+        <module>kafka-streams</module>
     </modules>
 
 </project>
