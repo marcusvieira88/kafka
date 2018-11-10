@@ -25,10 +25,12 @@ public class TwitterProducer {
 
     private static Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
 
-    private String consumerKey = "SsPPDzuSh7R8P8DntM7cyXGMT";
-    private String consumerSecret = "oR11yQvNhAguuSM3tKOoJpijzr86QmYwKpqhYbEhXtns1vCleC";
-    private String token = "1060198688889495552-tdmTsiG9Z1dfHnOptOmWeX6EqjNX7u";
-    private String secret = "VVm6CQlu2xzuHepyZnj80VBScgDaWVcSvH5eR9XdEqdJF";
+    //https://developer.twitter.com/content/developer-twitter/en.html
+    //create account and app
+    private String consumerKey = "XXXXXXXXXXXXXXXXXXXXXX";
+    private String consumerSecret = "XXXXXXXXXXXXXXXXXXXXXX";
+    private String token = "XXXXXXXXXXXXXXXXXXXXXX";
+    private String secret = "XXXXXXXXXXXXXXXXXXXXXX";
     List<String> terms = Lists.newArrayList("kafka", "usa", "sports", "politics", "brazil");
 
     public static void main(String[] args) {

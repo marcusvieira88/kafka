@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d9ab3e9-84ee-4f33-8a48-d67fd2b6e807" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-streams/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-streams/kafka-streams.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-streams/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-streams/src/main/java/com/github/marcusvieira/com/github/marcusvieira/tutorial4/StreamsFilterTwitter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/target/classes/com/github/marcusvieira/kafka/tutorial1/ConsumerDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/target/classes/com/github/marcusvieira/kafka/tutorial1/ConsumerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/target/classes/com/github/marcusvieira/kafka/tutorial1/ConsumerDemoAssingSeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/target/classes/com/github/marcusvieira/kafka/tutorial1/ProducerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/target/classes/com/github/marcusvieira/kafka/tutorial1/ProducerDemoWithCallback$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/target/classes/com/github/marcusvieira/kafka/tutorial1/ProducerDemoWithCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/target/classes/com/github/marcusvieira/kafka/tutorial1/ProducerDemoWithKeys$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/target/classes/com/github/marcusvieira/kafka/tutorial1/ProducerDemoWithKeys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-connectors/twitter.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-connectors/twitter.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-elasticsearch/src/main/java/com/github/marcusvieira/kafka/tutorial3/ElasticSearchConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-elasticsearch/src/main/java/com/github/marcusvieira/kafka/tutorial3/ElasticSearchConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-elasticsearch/target/classes/com/github/marcusvieira/kafka/tutorial3/ElasticSearchConsumer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-elasticsearch/target/classes/com/github/marcusvieira/kafka/tutorial3/ElasticSearchConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-twitter/src/main/java/com/github/marcusvieira/kafka/tutorial2/TwitterProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-twitter/src/main/java/com/github/marcusvieira/kafka/tutorial2/TwitterProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-twitter/target/classes/com/github/marcusvieira/kafka/tutorial2/TwitterProducer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-twitter/target/classes/com/github/marcusvieira/kafka/tutorial2/TwitterProducer.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,17 +45,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="49" />
-          <entry key="java" value="5712" />
+          <entry key="java" value="5798" />
           <entry key="md" value="1618" />
-          <entry key="properties" value="104" />
+          <entry key="properties" value="137" />
           <entry key="xml" value="131" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5712" />
+          <entry key="JAVA" value="5798" />
           <entry key="PLAIN_TEXT" value="1667" />
-          <entry key="Properties" value="104" />
+          <entry key="Properties" value="137" />
           <entry key="XML" value="131" />
         </counts>
       </usages-collector>
@@ -55,8 +64,8 @@
           <entry key="class" value="2" />
           <entry key="gitignore" value="2" />
           <entry key="java" value="32" />
-          <entry key="md" value="6" />
-          <entry key="properties" value="3" />
+          <entry key="md" value="8" />
+          <entry key="properties" value="4" />
           <entry key="sh" value="1" />
           <entry key="xml" value="15" />
         </counts>
@@ -65,8 +74,8 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="JAVA" value="32" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Properties" value="3" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Properties" value="4" />
           <entry key="XML" value="15" />
         </counts>
       </usages-collector>
@@ -86,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kafka-elasticsearch/src/main/java/com/github/marcusvieira/kafka/tutorial3/ElasticSearchConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="137" column="5" selection-start-line="127" selection-start-column="4" selection-end-line="137" selection-end-column="5" />
+            <state relative-caret-position="154">
+              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,10 +104,28 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kafka-connectors/twitter.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka-elasticsearch/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kafka-streams/src/main/java/com/github/marcusvieira/com/github/marcusvieira/tutorial4/StreamsFilterTwitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="-321">
               <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,8 +137,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kafka-twitter/src/main/java/com/github/marcusvieira/kafka/tutorial2/TwitterProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="-1281">
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka-twitter/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -125,7 +161,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -139,15 +175,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="26" column="21" selection-start-line="21" selection-start-column="6" selection-end-line="26" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kafka-elasticsearch/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="41" selection-start-line="35" selection-start-column="7" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -182,10 +209,8 @@
         <option value="$PROJECT_DIR$/kafka-basics/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-twitter/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-twitter/src/main/java/java/com/github/marcusvieira/kafka/tutorial1/ConsumerDemo.java" />
-        <option value="$PROJECT_DIR$/kafka-twitter/src/main/java/com/github/marcusvieira/kafka/tutorial2/TwitterProducer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-elasticsearch/pom.xml" />
-        <option value="$PROJECT_DIR$/kafka-elasticsearch/src/main/java/com/github/marcusvieira/kafka/tutorial3/ElasticSearchConsumer.java" />
         <option value="$PROJECT_DIR$/kafka-connectors/connectors/connect-standalone.properties" />
         <option value="$PROJECT_DIR$/kafka-connectors/connectors/twitter.properties" />
         <option value="$PROJECT_DIR$/kafka-connectors/connectors/run.sh" />
@@ -198,6 +223,9 @@
         <option value="$PROJECT_DIR$/kafka-streams/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-streams/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/kafka-twitter/src/main/java/com/github/marcusvieira/kafka/tutorial2/TwitterProducer.java" />
+        <option value="$PROJECT_DIR$/kafka-elasticsearch/src/main/java/com/github/marcusvieira/kafka/tutorial3/ElasticSearchConsumer.java" />
+        <option value="$PROJECT_DIR$/kafka-connectors/twitter.properties" />
       </list>
     </option>
   </component>
@@ -495,7 +523,43 @@
             <path>
               <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
               <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
               <item name="kafka-connectors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-connectors" type="462c0819:PsiDirectoryNode" />
+              <item name="connectors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
@@ -535,6 +599,13 @@
             <path>
               <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
               <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
               <item name="kafka-streams" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -557,6 +628,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-streams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
@@ -600,7 +680,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541792520096" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541792566790" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -730,7 +810,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.424581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -859,13 +938,6 @@
         <state relative-caret-position="-405" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-connectors/twitter.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kafka-connectors/run.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -877,20 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-twitter/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-elasticsearch/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -953,16 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-elasticsearch/src/main/java/com/github/marcusvieira/kafka/tutorial3/ElasticSearchConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="137" column="5" selection-start-line="127" selection-start-column="4" selection-end-line="137" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/2.0.0/kafka-streams-2.0.0.jar!/org/apache/kafka/streams/StreamsBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1965">
@@ -988,23 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-streams/src/main/java/com/github/marcusvieira/com/github/marcusvieira/tutorial4/StreamsFilterTwitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-twitter/src/main/java/com/github/marcusvieira/kafka/tutorial2/TwitterProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kafka-streams/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1016,6 +1047,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-twitter/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-twitter/src/main/java/com/github/marcusvieira/kafka/tutorial2/TwitterProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1281">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-streams/src/main/java/com/github/marcusvieira/com/github/marcusvieira/tutorial4/StreamsFilterTwitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-elasticsearch/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-elasticsearch/src/main/java/com/github/marcusvieira/kafka/tutorial3/ElasticSearchConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-connectors/twitter.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
         </state>
       </provider>
     </entry>

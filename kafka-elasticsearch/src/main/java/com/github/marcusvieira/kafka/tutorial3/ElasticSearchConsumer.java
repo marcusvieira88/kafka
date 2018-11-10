@@ -36,10 +36,10 @@ public class ElasticSearchConsumer {
 
     public static RestHighLevelClient createClient() {
 
-        //credentials
-        String hostname = "marcus-vieira-6570542897.eu-central-1.bonsaisearch.net";
-        String username = "sqmr7zs9p7";
-        String password = "5333eoi1kj";
+        //credentials https://bonsai.io/
+        String hostname = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+        String username = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+        String password = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
         BasicCredentialsProvider credentialsProvider = new BasicCredentialsProvider();
         credentialsProvider.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials(username, password));
